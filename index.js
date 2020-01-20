@@ -3,7 +3,7 @@
 $(function(){
     $('#js-shopping-list-form').submit(function(event) {
         event.preventDefault();
-        let newItem = $('.js-shopping-list-entry').val();
+        const newItem = $('.js-shopping-list-entry').val();
 
         $('.shopping-list').append(`<li>
               <span class="shopping-item">${newItem}</span>
